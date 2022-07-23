@@ -48,7 +48,7 @@ extension LoginViewController {
         subtitleLabel.font = UIFont.preferredFont(forTextStyle: .title3)
         subtitleLabel.adjustsFontForContentSizeCategory = true
         subtitleLabel.numberOfLines = 0
-        subtitleLabel.text = "Your premium source for all things banking!"
+        subtitleLabel.text = "Your premium source for all\nthings banking!"
         
         loginView.translatesAutoresizingMaskIntoConstraints = false
         

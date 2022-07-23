@@ -60,6 +60,7 @@ extension LoginView {
         
         addSubview(stackView)
         
+        // Stack
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalToSystemSpacingBelow: topAnchor, multiplier: 1),
             stackView.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 1),
